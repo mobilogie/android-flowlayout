@@ -5,5 +5,8 @@ target/
 *.log
 *.class
 .idea/
+.gradle
+build/
+*.orig
 libraries/layouts/src/android-flowlayout/gen
 libraries/layouts/src/android-flowlayout/bin

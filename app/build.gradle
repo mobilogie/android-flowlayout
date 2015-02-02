@@ -1,0 +1,18 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    compile project(':libraries:layouts')
+}
+
+version = VERSION_NAME
+group = GROUP
+
+android {
+  compileSdkVersion 10
+  buildToolsVersion '19.1.0'
+
+  defaultConfig {
+    versionName project.VERSION_NAME
+    versionCode Integer.parseInt(project.VERSION_CODE)
+  }
+}
